@@ -1,0 +1,24 @@
+
+.scrolling-news {
+  margin: 0;
+  overflow: hidden;
+  max-height: 100vh;
+  
+  }
+
+.scrolling-item {
+  display: inline-flex;
+  animation: scrollUp 10s linear infinite;
+  padding: 10px;
+}
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(1100%);
+  }
+
+  100% {
+    transform: translateY(-1200%);
+  }
+}
+

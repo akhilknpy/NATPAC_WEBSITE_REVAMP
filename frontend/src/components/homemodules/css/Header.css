@@ -1,0 +1,50 @@
+.header{
+    display: block;
+    max-width: 100%;
+    opacity: 70%;
+}
+.header-top{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #373f54;
+    padding: 2px;
+    align-content: center;
+}
+.header-top a{
+    font-size:small;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.header-bottom{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px ;
+    align-items: center;
+
+}
+.natpac-logo img{
+    width: 50%;
+    margin-left: 5px;
+}
+.kscste-logo img{
+    width: 70%;
+    margin-right: 20px;
+}
+.site-name{
+    padding-top: 10px;
+    margin-right: 70px;
+
+    
+}
+.site-name div{
+    text-align: center;
+}
+.head-name{
+    font-weight: bold;
+    font-size:140%;
+
+}
+.head-sub{
+    font-size:110% ;
+}

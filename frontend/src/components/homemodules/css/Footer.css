@@ -1,0 +1,39 @@
+.footer-container{
+    background-color: #b0a8b9;
+    height:auto;
+    max-width: 100%;
+
+}
+.footer-top-logo{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.footer-top-logo img{
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+}
+.footer-head{
+    justify-items: center;
+    font-size: large;
+    padding-top: 20px;
+}
+.footer-copyright{
+    justify-items: center;
+    font-weight: bold;
+}
+
+/* @media (max-width:768px){
+    .footer-container{
+        width: 100%;
+    
+    }
+    .footer-top-logo{
+        display: block;
+        gap:20px;
+        justify-content: center;
+    }
+    
+} */

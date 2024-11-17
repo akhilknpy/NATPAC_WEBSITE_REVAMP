@@ -1,0 +1,32 @@
+.home-container-mid{
+    display: flex;
+    max-width: 100%;
+    padding: 20px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    max-width: 35%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  }
+.about-div{
+    margin-left: 15px;
+    justify-items: center;
+    max-width: 35%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+  .news-card {
+    margin-left: 10px;
+    overflow: hidden;
+    justify-items: center;
+    max-width: 30%;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  

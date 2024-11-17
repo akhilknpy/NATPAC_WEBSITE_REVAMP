@@ -1,0 +1,27 @@
+/* Container to hide the overflow */
+.scrolling-container {
+    width: 100%; /* Makes the container full width of the screen */
+    overflow: hidden; /* Hides content that goes beyond the container */
+    position: relative; /* Required for positioning the inner div */
+    background-color: #32394C;
+  }
+  
+  /* Text that will scroll */
+  .scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 20px;
+    color: aliceblue;
+    
+    animation: scroll 25s linear infinite; /* Animation to scroll */
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(150%); /* Start off-screen on the right */
+    }
+    to {
+      transform: translateX(-100%); /* Move off-screen to the left */
+    }
+  }
+  

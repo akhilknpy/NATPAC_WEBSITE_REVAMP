@@ -1,0 +1,108 @@
+
+.login-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+} 
+
+/* Container styling */
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.login-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Profile picture */
+.profile-pic img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  width: 100%;
+  text-align: left;
+  color: #777;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1em;
+}
+
+input:focus {
+  border-color: #4CAF50; /* Green border on focus */
+}
+
+/* Login button styling */
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #4CAF50; /* Green color */
+  color: white;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Footer links */
+.login-footer {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #888;
+}
+
+.login-footer a {
+  display: block;
+  color: #4CAF50;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
+.link-home{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  
+}
+.link-home a{
+  text-decoration: none;
+}

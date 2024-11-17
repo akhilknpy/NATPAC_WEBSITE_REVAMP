@@ -1,0 +1,21 @@
+.navbar-bg{
+    background-color: #292f3f;
+    position:sticky !important;
+    top:0;
+    z-index: 2;
+    max-width: 100%;
+    opacity: 85%;
+}
+.nav-title{
+    color: white;
+    padding: 8px;
+    font-size: medium;
+    text-decoration: none;
+    /* display: none; */
+}
+.nav-title .dropdown-toggle::after {
+    display: none !important;
+  }
+  .nav-title:hover .dropdown-menu {
+    display: block;
+  }
